@@ -1,0 +1,79 @@
+.text-primary {
+   color: var(--bs-primary);
+}
+
+.text-secondary {
+   color: var(--bs-secondary);
+}
+
+.text-success {
+   color: var(--bs-success);
+}
+
+.text-info {
+   color: var(--bs-info);
+}
+
+.text-warning {
+   color: var(--bs-warning);
+}
+
+.text-danger {
+   color: var(--bs-danger);
+}
+
+.text-light {
+   color: var(--bs-light);
+}
+
+.text-dark {
+   color: var(--bs-dark);
+}
+
+.primary-hover {
+   &:hover {
+      color: #0B5ED7;
+   }
+}
+
+.secondary-hover {
+   &:hover {
+      color: #5C636A;
+   }
+}
+
+.success-hover {
+   &:hover {
+      color: #157347;
+   }
+}
+
+.info-hover {
+   &:hover {
+      color: #31D2F2;
+   }
+}
+
+.warning-hover {
+   &:hover {
+      color: #FFCA2C;
+   }
+}
+
+.danger-hover {
+   &:hover {
+      color: #BB2D3B;
+   }
+}
+
+.light-hover {
+   &:hover {
+      color: #F9FAFB;
+   }
+}
+
+.dark-hover {
+   &:hover {
+      color: #1C1F23;
+   }
+}

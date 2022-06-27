@@ -1,0 +1,83 @@
+table, thead, tbody, tr, td {
+   border: 1px solid #C1C7E0;
+   border-collapse: collapse;
+   text-align: center;
+}
+
+thead {
+   font-weight: bold;
+}
+
+tbody tr {
+   color: var(--bs-dark)
+}
+
+td {
+   padding: 10px;
+}
+
+tbody tr:nth-child(odd) { // Impar
+   background-color: #979999;
+
+   &:hover {
+      background-color: #797C7C;
+   }
+}
+
+tbody tr:nth-child(even) { // Par
+   background-color: #5B5E5F;
+
+   &:hover {
+      background-color: #3E4042;
+   }
+}
+
+.edit-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.penToSquare:hover {
+   fill: #FFCA2C;
+}
+
+.faTrashCan {
+   width: 24px;
+   height: 24px;
+
+   &:hover {
+      color: #BB2D3B;
+   }
+}
+
+.part1, .part2 {
+   width: 50%;
+}
+
+.back {
+   margin-right: 16px;
+}
+
+@media (max-width: 700px) {
+   .faListCheck {
+      width: 30px;
+      height: 30px;
+   }
+
+   .responsive {
+      // width: 75%;
+      .back-link{
+         width: 100%;
+      }
+      .back {
+         margin-bottom: $gap-2;
+         width: 100%;
+      }
+
+      Link, Button {
+         width: 100%;
+      }
+      
+   }
+}

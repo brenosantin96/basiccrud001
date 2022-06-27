@@ -1,0 +1,105 @@
+.btn-primary {
+   color: #C1C7E0;
+   background-color:#0D6EFD;
+   border-color: #0F6EFD;
+   
+   &:hover {
+      background-color: #0B5ED7;
+      border-color:#0A58CA;
+   }
+}
+
+.btn-secondary {
+   color: #C1C7E0;
+   background-color: #6C757D;
+   border-color: #6C757D;
+   
+   &:hover {
+      background-color: #5C636A;
+      border-color :#565E64;
+   }
+}
+
+.btn-success {
+   color: #C1C7E0;
+   background-color: #198754;
+   border-color: #198754;
+   
+   &:hover {
+      background-color: #157347;
+      border-color:#146C43;
+   }
+}
+
+.btn-danger {
+   color: #C1C7E0;
+   background-color: #DC3545;
+   border-color: #DC3545;
+   
+   &:hover {
+      background-color:#BB2D3B;
+      border-color:#B02A37;
+   }
+}
+
+.btn-warning {
+   color: var(--bs-dark);
+   background-color: #FFC107;
+   border-color: #FFC107;
+   text-decoration: none;
+   
+   &:hover {
+      background-color:#FFCA2C;
+      border-color:#FFC720;
+   }
+}
+
+.btn-info {
+   color: var(--bs-dark);
+   background-color:#0DCAF0;
+   border-color:#0DCAF0;
+   
+   &:hover {
+      background-color:#31D2F2;
+      border-color:#25CFF2
+   }
+}
+
+.btn-light {
+   color: var(--bs-dark);
+   background-color:#F8F9FA;
+   border-color:#F8F9FA;
+   
+   &:hover {
+      background-color:#F9FAFB;
+      border-color:#F9FAFB;
+   }
+}
+
+.btn-dark {
+   color:#C1C7E0;
+   background-color:#212529;
+   border-color:#212529;
+   
+   &:hover {
+      background-color:#1C1F23;
+      border-color:#1A1E21;
+   }
+}
+
+.btn{
+   display: inline-block;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   line-height: 1.5;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: middle;
+   cursor: pointer;
+   border: 1px solid transparent;
+   padding: .375rem .75rem;
+   font-size: 1rem;
+   border-radius: .25rem;
+   transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}

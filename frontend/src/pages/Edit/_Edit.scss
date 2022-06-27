@@ -1,0 +1,57 @@
+.btns-group-edit {
+   margin-top: -24px;
+}
+
+.back-responsive-edit {
+   text-decoration: none;
+   // width: 0%;
+}
+
+@media (max-width: 780px) {
+   .btns-group-edit {
+      flex-direction: column;
+   }
+   .btn-group-edit-1 {
+      margin-bottom: $gap-4;
+   }
+}
+
+@media (max-width: 700px) {
+   .FaPentoSquare {
+      width: 30px;
+      height: 30px;
+   }
+
+   .btns-group-edit {
+      margin-top: -$gap-5;
+   }
+
+   .btn-group-edit-1 {
+      margin-bottom: 0;
+   }
+
+   .btn-group-edit-2 {
+      margin-top: -$gap-1;
+   }
+
+   .back-responsive-edit {
+      min-width: 238px;
+      margin-right: 0px;
+
+      Button{
+         margin-right: 0;
+         width: 100%;
+      }
+   }
+
+   .btn-edit-list {
+      margin-left: 0;
+      min-width: 238px;
+
+      Button {
+         margin: $gap-2 0 0;
+         width: 100%;
+      }
+   }
+
+}

@@ -1,0 +1,96 @@
+input {
+   background-color: #0003;
+   border-radius: .25rem;
+}
+
+.input {
+   border: none;
+   outline: none;
+   padding: 12px;
+   text-align: center;
+   font-size: 24px;
+   background-color: #0003;
+   border-radius: .25rem;
+
+   &:focus {
+      border: none;
+      outline: none;
+   }
+}
+
+select {
+   border: none;
+   outline: none;
+   border-radius: .25rem;
+   padding: 12px;
+   text-align: center;
+   font-size: 24px;
+   // background-color: #0003;
+   font-weight: bold;
+   background-color: #0003;
+   // background-color: var(--bs-dark);
+}
+input{
+}
+select option {
+
+}
+
+.qtd {
+   border: none;
+   outline: none;
+   padding: 12px;
+   text-align: center;
+   font-size: 24px;
+   border-radius: .25rem;
+   background-color: #0003;
+}
+
+.btn-group {
+   margin-top: -24px;
+}
+
+.back-responsive-register {
+   text-decoration: none;
+}
+
+
+@media (max-width: 700px) {
+   h1 {
+      font-size: 24px;
+   }
+   .input, select {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0;
+   }
+
+   .responsive-register{
+      flex-direction: column;
+      width: 100%;
+
+      margin: $gap-2 0;
+      .select, input {
+         width: 100%;
+         margin-bottom: 16px;
+      }
+   }
+
+   .btn-group {
+      margin: -32px 0 0px 0;
+      justify-content: space-between;
+
+      .btn1 {
+         margin-right: 16px;
+      }
+   }
+
+   .btn-back {
+      margin-top: 24px;
+      width: 100%;
+   }
+
+   .back-responsive-register {
+      min-width: 238px;
+   }
+}
